@@ -1,0 +1,23 @@
+:root { --green: #2f7d4f; --green-dark: #256540; }
+body { font-family: "Noto Serif", Georgia, "Times New Roman", serif; color: #1f2a24; background: #fff; }
+h1 { font-weight: 700; }
+.hero { padding: 2.5rem 0; }
+.hero img { max-width: 100%; border-radius: 1rem; }
+.btn-calc { background: #0d6efd; color: #fff; padding: .6rem 2rem; border-radius: .4rem; text-decoration: none; display: inline-block; }
+.btn-calc:hover { background: #0b5ed7; color: #fff; }
+
+/* tab bar */
+.tabbar { border: 2px solid #8ec5e8; padding: .4rem 1rem; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: .5rem; }
+.tabbar .nav-link { color: #6b6bb5; padding: .4rem .8rem; border: 0; background: none; }
+.tabbar .nav-link.active { background: none; color: #1f2a24; font-weight: 600; }
+.tabbar .nav-link:hover { color: var(--green); }
+.btn-green { background: var(--green); color: #fff; border: 0; padding: .4rem 1rem; border-radius: .3rem; text-decoration: none; }
+.btn-green:hover { background: var(--green-dark); color: #fff; }
+
+/* card */
+.calc-card { border: 2px solid #8ec5e8; border-radius: 0; max-width: 780px; }
+.calc-card .card-header { background: var(--green); color: #fff; text-align: center; font-size: 1.1rem; margin: .5rem .5rem 0; border: 0; }
+.calc-card .card-footer { background: #f3f3f3; text-align: center; margin: 0 .5rem .5rem; }
+.calc-card .card-footer .btn-green { margin: 0 .3rem; }
+.calc-card .form-control, .calc-card .form-select { border-radius: .5rem; }
+.result-number { font-size: 2.5rem; font-weight: 700; color: var(--green); }
